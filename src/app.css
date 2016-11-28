@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+#map {
+    flex: 1;
+}
+
+.weather-app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.weather-app__header {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.24), 0 0 4px rgba(0, 0, 0, 0.12);
+    z-index: 1;
+}
+
+.weather-app__map-errors {
+    margin: 0 0 0 50px;
+    color: red;
+    font-size: 20px;
+}
